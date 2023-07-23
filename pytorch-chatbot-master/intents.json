@@ -1,0 +1,419 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day"
+
+      ],
+      "responses": [
+        "Hey :)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "questions",
+      "patterns": [
+        "How are you",
+        "What's up",
+        "whats up"
+
+      ],
+      "responses": [
+        "I'm great! How can I help?",
+        "Doing good! How can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later!",
+        "Have a nice day",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+    },
+    {
+      "tag": "ServiceNow",
+      "patterns": ["What is ServiceNow?", "What is a Service Now request?", "Service Now request"],
+      "responses": ["Found on /intranet it allows you to make service requests, gain access to applications, submit software installation requests, etc."]
+    },
+    {
+      "tag": "Status20",
+      "patterns": [
+        "What does status 20 mean?",
+        "Status 20",
+	      "What is status 20"
+      ],
+      "responses": [
+        "Status 20 (loan) means a new loan application has been created"
+      ]
+    },
+    {
+      "tag": "Status29",
+      "patterns": [
+        "What does status 29 mean?",
+        "Status 29",
+	      "What is status 29"
+      ],
+      "responses": [
+        "Status 29 (loan) means a new loan application has been cancelled"
+      ]
+    },
+    {
+      "tag": "Status30",
+      "patterns": [
+        "What does status 30 mean?",
+        "Status 320",
+	      "What is status 30"
+      ],
+      "responses": [
+        "Status 30 (loan) means that the contract offer has been created"
+      ]
+    },
+    {
+      "tag": "Status39",
+      "patterns": [
+        "What does status 39 mean?",
+        "Status 39",
+	      "What is status 39"
+      ],
+      "responses": [
+        "Status 39 (loan) means the contract offer has been cancelled"
+      ]
+    },
+    {
+      "tag": "Status40",
+      "patterns": [
+        "What does status 40 mean?",
+        "Status 40",
+	      "What is status 40"
+      ],
+      "responses": [
+        "Status 40 (loan) means that the loan contract has been created"
+      ]
+    },
+    {
+      "tag": "Status49",
+      "patterns": [
+        "What does status 49 mean?",
+        "Status 49",
+	      "What is status 49"
+      ],
+      "responses": [
+        "Status 49 (loan) means the contract has been cancelled"
+      ]
+    },
+    {
+      "tag": "Status50",
+      "patterns": [
+        "What does status 50 mean?",
+        "Status 50",
+	      "What is status 50"
+      ],
+      "responses": [
+        "Status 50 (loan) means that the application is under review of the underwriter"
+      ]
+    },
+    {
+      "tag": "Status54",
+      "patterns": [
+        "What does status 54 mean?",
+        "Status 54",
+	      "What is status 54"
+      ],
+      "responses": [
+        "Status 54 (loan) means that the application is in credit review"
+      ]
+    },
+    {
+      "tag": "Status55",
+      "patterns": [
+        "What does status 55 mean?",
+        "Status 55",
+	      "What is status 55"
+      ],
+      "responses": [
+        "Status 55 (loan) means the credit review has been completed"
+      ]
+    },
+    {
+      "tag": "Status60",
+      "patterns": [
+        "What does status 60 mean?",
+        "Status 60",
+	      "What is status 60"
+      ],
+      "responses": [
+        "Status 60 (loan) means that the requisition has been received"
+      ]
+    },
+    {
+      "tag": "Status70",
+      "patterns": [
+        "What does status 70 mean?",
+        "Status 70",
+	      "What is status 70"
+      ],
+      "responses": [
+        "Status 70 (loan) means documents are incomplete for conventional loans."
+
+      ]
+    },
+    {
+      "tag": "Status71",
+      "patterns": [
+        "What does status 71 mean?",
+        "Status 71",
+	      "What is status 71"
+      ],
+      "responses": [
+        "Status 70 (loan) means documents are complete for conventional loans."
+
+      ]
+    },
+    {
+      "tag": "Status75",
+      "patterns": [
+        "What does status 75 mean?",
+        "Status 75",
+	      "What is status 75"
+      ],
+      "responses": [
+        "Status 75 (loan) means application is under legal action"
+
+      ]
+    },
+    {
+      "tag": "Status76",
+      "patterns": [
+        "What does status 76 mean?",
+        "Status 76",
+	      "What is status 76"
+      ],
+      "responses": [
+        "Status 76 (loan) means real estate is in possession"
+
+      ]
+    },
+    {
+      "tag": "Status80",
+      "patterns": [
+        "What does status 80 mean?",
+        "Status 80",
+	      "What is status 80"
+      ],
+      "responses": [
+        "Status 80 (loan) means documents incomplete for securitized loans."
+
+      ]
+    },
+    {
+      "tag": "Status81",
+      "patterns": [
+        "What does status 81 mean?",
+        "Status 81",
+	      "What is status 81"
+      ],
+      "responses": [
+        "Status 81 (loan) means documents complete for securitized loans."
+
+      ]
+    },
+    {
+      "tag": "Status85",
+      "patterns": [
+        "What does status 85 mean?",
+        "Status 85",
+	      "What is status 85"
+      ],
+      "responses": [
+        "Status 85 (loan) means securitized loan is in legal action."
+
+      ]
+    },
+    {
+      "tag": "Status86",
+      "patterns": [
+        "What does status 86 mean?",
+        "Status 86",
+	      "What is status 86"
+      ],
+      "responses": [
+        "Status 86 (loan) means customer is in possession of securitized loan"
+
+      ]
+    },
+    {
+      "tag": "Status90",
+      "patterns": [
+        "What does status 90 mean?",
+        "Status 90",
+	      "What is status 70"
+      ],
+      "responses": [
+        "Status 90 (loan) means documents incomplete for discharged loans."
+
+      ]
+    },
+    {
+      "tag": "Status91",
+      "patterns": [
+        "What does status 91 mean?",
+        "Status 91",
+	      "What is status 91"
+      ],
+      "responses": [
+        "Status 91 (loan) means documents complete for discharged loans."
+
+      ]
+    },
+    {
+      "tag": "Status92",
+      "patterns": [
+        "What does status 92 mean?",
+        "Status 92",
+	      "What is status 92"
+      ],
+      "responses": [
+        "Status 92 (loan) means that the loan has been funded externally"
+
+      ]
+    },
+    {
+      "tag": "Status93",
+      "patterns": [
+        "What does status 93 mean?",
+        "Status 93",
+	      "What is status 93"
+      ],
+      "responses": [
+        "Status 93 (loan) means loan has been sold through external servicing"
+
+      ]
+    },
+    {
+      "tag": "Bank account open",
+      "patterns": [
+        "How can I open a bank account?",
+        "Opening bank account",
+	      "Account opening"
+      ],
+      "responses": [
+        " To open a bank account, you can visit a branch of the bank you're interested in or apply online through their website. You'll typically need to provide identification documents, such as your passport or driver's license, proof of address, and sometimes a minimum deposit."
+
+      ]
+    },
+    {
+      "tag": "LTV",
+      "patterns": [
+        "What is LTV?",
+        "LTV?",
+	      "What is one of the factors that will change the LTV %?"
+      ],
+      "responses": [
+        "LTV stands for Loan-to-Value ratio. You would divide the mortgage amount over the property value.",
+        "Loan-to-Value ratio (LTV): factors like mortgage amount and property affect this %."
+      ]
+    },
+    {
+      "tag": "TDS",
+      "patterns": [
+        "What is TDS?",
+        "TDS?",
+	      "What is one of the factors that will change the TDS %?"
+      ],
+      "responses": [
+        "TDS stands for Total Debt Service. It's the % of your income needed to cover all your debts"
+      ]
+    },
+    {
+      "tag": "CBS",
+      "patterns": [
+        "What is CBS?",
+        "CBS",
+	      "What is the range of CBS scores?"
+      ],
+      "responses": [
+        "CBS stands for Credit Bureau Score. Its rating ranges from 300 to 900. Usually a score of 600+ is considered to be good."
+      ]
+    },
+    {
+      "tag": "Difference",
+      "patterns": [
+        "What is the difference between a checking account and a savings account??",
+        "What is savings account",
+	      "What is checking account"
+      ],
+      "responses": [
+        "A checking account is designed for everyday transactions, such as paying bills and making purchases using a debit card. On the other hand, a savings account is intended for storing money over a longer period, usually earning interest on the balance. Withdrawals from savings accounts are typically less frequent and may have limitations."
+      ]
+    }, {
+      "tag": "Deoposit",
+      "patterns": [
+        "How can I deposit money into my account?",
+        "deposit money"
+
+      ],
+      "responses": [
+        "There are various ways to deposit money into your bank account. You can visit a bank branch and deposit cash or checks with a teller. Many banks also offer mobile banking apps, allowing you to deposit checks by taking a picture of them. Additionally, you can use ATMs to deposit cash or checks, or set up direct deposit with your employer."
+      ]
+    },
+    {
+      "tag": "check",
+      "patterns": [
+        "How long does it take for a check to clear?",
+        "Check clearing period"
+
+
+      ],
+      "responses": [
+        "The time it takes for a check to clear can vary. Generally, local checks within the same country can take a few business days to clear, while international checks may take longer. However, the availability of funds can depend on several factors, including the policies of your bank and the relationship between the two banks involved in the transaction."
+      ]
+    },
+    {
+      "tag": "loans",
+      "patterns": ["What will be the tenure of Gold loan"],
+      "responses": ["Gold Loan are available for tenures starting from 6 months, up to 48 months."]
+    },
+     {
+      "tag": "Benefits",
+      "patterns": ["What are Benefits for our Bank account holders"],
+      "responses": ["Benefits are quick processing time and simplified documentation. Further there are preferred rates for customers who have a strong banking relationship with the bank."]
+    },
+    {
+      "tag": "SAP application",
+      "patterns": [
+        "What SAP applications should I use for updating CBS?",
+        "SAP applications?",
+	      "SAP application",
+	      "SAP app",
+	      "applications",
+	      "SAP"
+      ],
+      "responses": [
+        "1. Finding loan details: Manage Loan Contract \n  2.Updation of CBS/MOS: Maintain BP \n      3. Link a property to an existing loan: Property \n      4. Creation of a new loan contract: Create Mortgage contract"
+      ]
+    },
+    {
+      "tag": "cibil",
+      "patterns": ["What is CIBIL"],
+      "responses": ["CIBIL stands for Credit Information Bureau India Limited. CIBIL's aim is to fulfil the need of credit granting institutions for comprehensive credit information by collecting, collating and disseminating credit information pertaining to both commercial and consumer borrowers, to a closed user group of members. Banks, Financial Institutions, Non-Banking Financial Companies, Housing Finance Companies and Credit Card Companies use CIBIL's services. Data sharing is based on the Principle of Reciprocity, which means that only Members who have submitted all their credit data may access Credit Information Reports from CIBIL. The establishment of CIBIL is an effort made by the Government of India and the Reserve Bank of India to improve the functionality and stability of the Indian financial system by containing NPAs while improving credit grantors' portfolio quality. CIBIL provides a vital service, which allows its Members to make informed, objective and faster credit decisions. View more"]
+    },
+      {
+        "tag": "cards",
+      "patterns": ["Can I use my Medical benefit card outside India"],
+      "responses": ["No. Medical Benefit card is INR prepaid card which can be used only in India."]
+
+    }
+  ]
+}
